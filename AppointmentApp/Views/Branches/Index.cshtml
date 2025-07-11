@@ -1,0 +1,75 @@
+﻿@using EntityLayer.Entities
+@model List<Branch>
+@{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string switch
+    {
+        "MyLayout" => "~/Views/Shared/_MyLayout.cshtml",
+        "AdminDashboard" => "~/Views/Shared/_AdminDashboard.cshtml",
+        "DoctorDashboard" => "~/Views/Shared/_DoctorLayout.cshtml", 
+        _ => "~/Views/Shared/_DashboardLayout.cshtml"
+    };
+
+    Layout = layoutPath;
+}
+@* @{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string switch
+    {
+        "MyLayout" => "~/Views/Shared/_MyLayout.cshtml",
+        "AdminDashboard" => "~/Views/Shared/_AdminDashboard.cshtml",
+        _ => "~/Views/Shared/_DashboardLayout.cshtml"
+    };
+
+    Layout = layoutPath;
+} *@
+
+<h1></h1>
+
+
+@if (layoutPath == "~/Views/Shared/_DashboardLayout.cshtml")
+{
+    <div class="alert alert-info">
+
+        <h2 class="fw-bold mb-2 ">Randevu almak istediğiniz branşı seçtikten sonra doktorunuzu seçiniz</h2>
+
+    </div>
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Branş Adı</th>
+        <th>Branş Doktorları</th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@item.BranchId</td>
+            <td>@item.Name</td>
+            
+            
+            <td><a class="btn btn-outline-warning" href="/Branches/GetDoctors/@item.BranchId">Doktorları Göster</a></td>
+            @if (layoutPath == "~/Views/Shared/_AdminDashboard.cshtml")
+            {
+                <td><a class="btn btn-outline-warning" href="/Branches/DeleteBranch/@item.BranchId">Branşı Sil</a></td>
+                
+            }
+           
+        </tr>
+    }
+</table>
+
+
+@if (layoutPath == "~/Views/Shared/_AdminDashboard.cshtml")
+{
+    <a class="btn btn-primary" href="/Branches/AddBranch">Yeni Branş Ekle</a>
+}
+
+

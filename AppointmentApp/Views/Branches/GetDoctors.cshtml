@@ -1,0 +1,76 @@
+﻿@using EntityLayer.Entities
+@model List<Doctor>
+
+@{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string switch
+    {
+        "MyLayout" => "~/Views/Shared/_MyLayout.cshtml",
+        "AdminDashboard" => "~/Views/Shared/_AdminDashboard.cshtml",
+        "DoctorDashboard" => "~/Views/Shared/_DoctorLayout.cshtml", 
+        _ => "~/Views/Shared/_DashboardLayout.cshtml"
+    };
+
+    Layout = layoutPath;
+}
+@* @{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string switch
+    {
+        "MyLayout" => "~/Views/Shared/_MyLayout.cshtml",
+        "AdminDashboard" => "~/Views/Shared/_AdminDashboard.cshtml",
+        _ => "~/Views/Shared/_DashboardLayout.cshtml"
+    };
+
+    Layout = layoutPath;
+} *@
+
+
+
+<h1></h1>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Doktor Adı</th>
+        <th>Doktor Soyadı</th>
+       
+
+
+
+
+
+
+
+    </tr>
+
+    @foreach (var doctor in Model)
+    {
+
+        <tr>
+            <td>@doctor.Id</td>
+            <td>@doctor.Name</td>
+            <td>@doctor.Surname</td>
+            @if (layoutPath == "~/Views/Shared/_DashboardLayout.cshtml")
+            {
+                <td><a class="btn btn-outline-primary" href="/Appointments/CreateAppointment/@doctor.Id">Ravdevu Al</a></td>
+
+            }
+
+           
+
+
+
+        </tr>
+
+
+    }
+
+
+
+
+</table>
+

@@ -1,0 +1,42 @@
+﻿@model EntityLayer.Entities.Appointment
+
+@{
+    ViewData["Title"] = "UpdateAppointment";
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+<h1>Randevuyu Güncelle</h1>
+
+<form method="post">
+
+    <div asp-validation-summary="All"></div>
+
+    @Html.TextBoxFor(x => x.Id, new { @class = "form-control", style = "display: none;" })
+    <br />
+    
+    @Html.TextBoxFor(x => x.PatientId, new { @class = "form-control", style = "display: none;" })
+    <br />
+
+    
+    @Html.TextBoxFor(x => x.DoctorId, new { @class = "form-control", style = "display: none;" })
+    <br />
+
+    @Html.Label("Tarih")
+    @Html.TextBoxFor(x => x.Date, new { @class = "form-control" })
+    <br />
+    @Html.Label("Saat")
+    @Html.TextBoxFor(x => x.Hour, new { @class = "form-control" })
+
+    <br />
+
+
+
+
+
+
+    <br />
+
+    <button class="btn btn-primary">Güncelle</button>
+
+
+</form>

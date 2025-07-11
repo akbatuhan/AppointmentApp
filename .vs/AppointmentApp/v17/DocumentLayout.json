@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|c:\\users\\monster\\desktop\\matematik_m\u00FChendisli\u011Fi_tasar\u0131m_uygulamalar\u0131_batuhan_ak_20052016\\appointmentapp\\appointmentapp\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|solutionrelative:appointmentapp\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|c:\\users\\monster\\desktop\\matematik_m\u00FChendisli\u011Fi_tasar\u0131m_uygulamalar\u0131_batuhan_ak_20052016\\appointmentapp\\appointmentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|solutionrelative:appointmentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|c:\\users\\monster\\desktop\\matematik_m\u00FChendisli\u011Fi_tasar\u0131m_uygulamalar\u0131_batuhan_ak_20052016\\appointmentapp\\appointmentapp\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{563BD4F5-37FA-4C41-9F7B-D2089D315546}|AppointmentApp\\AppointmentApp.csproj|solutionrelative:appointmentapp\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MyLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeDocumentMoniker": "AppointmentApp\\Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeToolTip": "AppointmentApp\\Views\\Shared\\_MyLayout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T21:03:18.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppointmentApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppointmentApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T21:02:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "AppointmentApp\\Views\\Shared\\_AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\MONSTER\\Desktop\\Matematik_M\u00FChendisli\u011Fi_Tasar\u0131m_Uygulamalar\u0131_Batuhan_AK_20052016\\AppointmentApp\\AppointmentApp\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeToolTip": "AppointmentApp\\Views\\Shared\\_AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T21:02:22.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+﻿@using EntityLayer.Entities
+@model List<Appointment>
+
+@{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string == "MyLayout"
+        ? "~/Views/Shared/_MyLayout.cshtml"
+        : "~/Views/Shared/_AdminDashboard.cshtml";
+
+    Layout = layoutPath;
+}
+
+<h1>Kayıtlı Randevular</h1>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Doktor Adı</th>
+        <th>Hasta Adı</th>
+        <th>Tarih</th>
+        <th>Saat</th>
+
+        @if (layoutPath == "~/Views/Shared/_AdminDashboard.cshtml")
+        {
+            <th>Silme</th>
+            <th>Güncelleme</th>
+
+        }
+
+
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.DoctorId</td>
+            <td>@item.PatientId</td>
+            <td>@item.Date</td>
+            <td>@item.Hour</td>
+            @if (layoutPath == "~/Views/Shared/_AdminDashboard.cshtml")
+            {
+                <td><a class="btn btn-outline-warning" href="/Appointments/DeleteAppointment/@item.Id">Sil</a></td>
+                <td><a class="btn btn-outline-primary" href="/Appointments/AdminUpdateAppointment/@item.Id">Güncelle</a></td>
+            }
+
+
+
+
+        </tr>
+
+
+    }
+
+
+
+
+</table>
+
+
+
+
+@if (layoutPath == "~/Views/Shared/_AdminDashboard.cshtml")
+{
+    <a class="btn btn-primary" href="/Appointments/AdminAddAppointment">Yeni Randevu Ekle</a>
+}
+
+

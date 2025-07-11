@@ -1,0 +1,24 @@
+﻿@* @model List<MongoDB.Bson.BsonDocument>
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+
+<h1>Saatler</h1>
+
+<ul>
+    @foreach (var document in Model)
+    {
+        <li>
+            <strong>Date:</strong> @document["Appointments"]["Date"]<br />
+            <strong>Time:</strong> @document["Appointments"]["TimeSlots"][0]["Time"]<br />
+            <hr />
+        </li>
+    }
+</ul> *@
+

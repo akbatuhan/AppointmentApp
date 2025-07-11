@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppointmentApp
+build_property.RootNamespace = AppointmentApp
+build_property.ProjectDir = C:\Users\MONSTER\Desktop\Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016\AppointmentApp\AppointmentApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MONSTER\Desktop\Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016\AppointmentApp\AppointmentApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/AdminPanel/AddAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxBZGRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/AdminPanel/GetAdmins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxHZXRBZG1pbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/AdminPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Appointments/AdminAddAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEFkbWluQWRkQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Appointments/AdminUpdateAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEFkbWluVXBkYXRlQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Appointments/CreateAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZUFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Appointments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Branches/AddBranch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcQWRkQnJhbmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Branches/GetDoctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcR2V0RG9jdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Branches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/DoctorPanel/GetDoctorsAppointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUGFuZWxcR2V0RG9jdG9yc0FwcG9pbnRtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/DoctorPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUGFuZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/DoctorPanel/UpdateAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUGFuZWxcVXBkYXRlQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Doctors/AddDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xBZGREb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Doctors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Doctors/UpdateDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xVcGRhdGVEb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/AdminLogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcQWRtaW5Mb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/ChangePasswordControl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcQ2hhbmdlUGFzc3dvcmRDb250cm9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/ChangePasswordl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcQ2hhbmdlUGFzc3dvcmRsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/DoctorLogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcRG9jdG9yTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/MainPage/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Patient/AddPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBZGRQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkRhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_DashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_DoctorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Eb2N0b3JMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/UserPanel/GetPatientAppointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhbmVsXEdldFBhdGllbnRBcHBvaW50bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/UserPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBhbmVsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/WeekHour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Vla0hvdXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MONSTER/Desktop/Matematik_Mühendisliği_Tasarım_Uygulamaları_Batuhan_AK_20052016/AppointmentApp/AppointmentApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q5w8cqoawr

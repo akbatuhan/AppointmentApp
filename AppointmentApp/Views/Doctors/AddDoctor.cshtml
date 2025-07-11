@@ -1,0 +1,57 @@
+﻿@using BusinessLayer.Concrete;
+@model EntityLayer.Entities.Doctor
+
+
+@{
+    ViewData["Title"] = "Index";
+
+    string layoutPath = ViewData["Condition"] as string switch
+    {
+        "MyLayout" => "~/Views/Shared/_MyLayout.cshtml",
+        "AdminDashboard" => "~/Views/Shared/_AdminDashboard.cshtml",
+        _ => "~/Views/Shared/_DashboardLayout.cshtml"
+    };
+
+    Layout = layoutPath;
+}
+<h1>AddDoctor</h1>
+
+<form method="post">
+
+
+    <div asp-validation-summary="All"></div>
+
+    @Html.Label("Doktor Adı")
+    @Html.TextBoxFor(x=>x.Name,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Doktor Soyadı")
+    @Html.TextBoxFor(x=>x.Surname,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Doktor Maili")
+    @Html.TextBoxFor(x=>x.Mail,new{@class="form-control"})
+    <br />
+    @Html.Label("Doktor Telefon Numarası")
+    @Html.TextBoxFor(x=>x.Number,new{@class="form-control"})
+    
+    <br />
+
+    @Html.Label("Doktor BranchId")
+    @Html.TextBoxFor(x=>x.BranchId,new{@class="form-control"})
+    <br />
+    
+    @Html.Label("Doktor Şifre")
+    @Html.TextBoxFor(x=>x.Password,new{@class="form-control"})
+    <br />
+    @Html.Label("Şifreyi Tekrar Giriniz")
+    @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control" })
+
+
+    <br />
+
+    <button class="btn btn-primary">Doktoru Sisteme Ekle</button>
+
+
+</form>
+

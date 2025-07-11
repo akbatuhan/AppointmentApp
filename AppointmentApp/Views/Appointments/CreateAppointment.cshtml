@@ -1,0 +1,114 @@
+﻿@using EntityLayer.Entities
+@model List<Appointment>
+@{
+    ViewData["Title"] = "CreateAppointment";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+@{
+    var userId = ViewBag.UserId;
+   
+}
+
+<h1>Randevunu Oluştur</h1>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+
+        <h2 class="fw-bold mb-2 ">Randevu alınmadı doktor seçilen saat ve tarihte müsait değil!</h2>
+
+    </div>
+}
+
+
+
+<form method="post">
+
+    <select id="yourComboBoxId" name="Date" class="form-control">
+        @foreach (var item in ViewBag.Next7Days)
+        {
+            <option >@item.ToShortDateString()</option>
+        }
+    </select>
+    <br />
+
+    <select id="yourComboBoxIdd" name="Hour" class="form-control">
+        @foreach (var item in ViewBag.Saatler)
+        {
+            <option >@item</option>
+        }
+    </select>
+    <br />
+    <br />
+
+  
+    <input type="text" name="PatientId" class="form-control" value="@userId" style="display: none">
+    <br />
+
+    <input type="text" class="form-control" value="@ViewBag.doctorId" name="DoctorId" style="display: none">
+
+    
+    <input type="text" name="Id" class="form-control" style="display: none">
+    <br />
+
+    <div class="alert alert-danger">
+
+        <h4 class="fw-bold mb-2 ">Aşağıda görmüş olduğunuz tarihlerdeki saatlerde seçtiğiniz doktor müsait değildir</h4>
+
+    </div>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Tarih</th>
+            <th>Saat</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+           @*  var doctorId = item.DoctorId; *@
+
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Date</td>
+                <td>@item.Hour</td>
+                @* <td>
+
+                    <input type="text" class="form-control" value="@doctorId" name="DoctorId" style="display: none">
+                </td> *@
+            </tr>
+        }
+
+        </table>
+
+    <br />
+    <br />
+
+        
+    <button class="btn btn-primary">Randevu Al</button>
+      
+</form>
+<br />
+<br />
+
+
+
+
+@* @if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+
+        <h2 class="fw-bold mb-2 ">Randevu alınmadı doktor seçilen saat ve tarihte müsait değil !</h2>
+
+    </div>
+} *@
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+﻿@using EntityLayer.Entities
+@model List<Appointment>
+@{
+    ViewData["Title"] = "GetPatientAppointments";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Randevularım</h1>
+
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Tarih</th>
+        <th>Saat</th>
+        <th>Doktor Adı</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        
+
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Date</td>
+            <td>@item.Hour</td>
+            <td>@item.Doctor.Name</td>
+
+               
+            
+        </tr>
+    }
+
+    </table>
+

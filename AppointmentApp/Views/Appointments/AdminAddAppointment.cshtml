@@ -1,0 +1,36 @@
+﻿@using BusinessLayer.Concrete;
+@model EntityLayer.Entities.Appointment
+@{
+    ViewData["Title"] = "AdminAddAppointment";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+<h1>AdminAddAppointment</h1>
+
+<form method="post">
+
+
+    <div asp-validation-summary="All"></div>
+
+    @Html.Label("Hasta Id")
+    @Html.TextBoxFor(x => x.PatientId, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Doktor Id")
+    @Html.TextBoxFor(x => x.DoctorId, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Tarih")
+    @Html.TextBoxFor(x => x.Date, new { @class = "form-control" })
+    <br />
+    @Html.Label("Saat")
+    @Html.TextBoxFor(x => x.Hour, new { @class = "form-control" })
+
+    <br />
+
+
+    <button class="btn btn-primary">Randevuyu Ekle</button>
+
+
+</form>
+

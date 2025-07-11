@@ -1,0 +1,23 @@
+﻿@model EntityLayer.Entities.Branch
+@{
+    ViewData["Title"] = "AddBranch";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+<h1>Branş Ekleme</h1>
+
+<form method="post">
+
+
+    <div asp-validation-summary="All"></div>
+
+    @Html.Label("Branş Adı")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-primary">Branşı Ekle</button>
+
+
+</form>
+
+

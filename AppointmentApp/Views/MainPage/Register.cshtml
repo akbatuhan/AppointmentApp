@@ -1,0 +1,51 @@
+﻿@using EntityLayer.Entities
+@model Patient
+
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h1>Register</h1>
+
+<form method="post">
+
+
+    <div asp-validation-summary="All"></div>
+
+    @Html.Label("Adı")
+    @Html.TextBoxFor(x=>x.Name,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Soyadı")
+    @Html.TextBoxFor(x=>x.Surname,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Mail")
+    @Html.TextBoxFor(x=>x.Mail,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Telefon Numarası")
+    @Html.TextBoxFor(x=>x.Number,new{@class="form-control",placeholder="111-111-11-11"})
+    <br />
+
+    @Html.Label("TC")
+    @Html.TextBoxFor(x=>x.TC,new{@class="form-control"})
+    <br />
+
+
+
+    @Html.Label("Şifre")
+    @Html.TextBoxFor(x=>x.Password,new{@class="form-control"})
+    <br />
+
+    @Html.Label("Şifreyi Tekrar Giriniz")
+    @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-primary">Kayıt Ol</button>
+
+
+</form>
+
